@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>register</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        body {
+            background-color: #80DAEB;
+        }
+        .head {
+            text-align: center;
+        }
+        .reg {
+            border-left: 3px solid #3F00FF;
+            border-right: 3px solid #3F00FF;
+            border-bottom: 3px solid gray;
+            border-top: 3px solid gray;
+            width: 95%;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .bu {
+            background-color: #552586;
+            margin-left: 450px;
+            text-align: center;
+            margin-bottom: 10px;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .input {
+            padding-left: 10px;
+            padding-bottom: 20px;
+        }
+        .type {
+            width: 90%;
+            height: 25px;
+        }
+        label {
+            margin-right: 23px;
+        }
+        .pass {
+            width: 90%;
+            height: 25px;
+        }
+        .date {
+            width: 86%;
+            height: 25px;
+        }
+    </style>
+    <body>
+        <div class="reg">
+            <div>
+                <h2 class="head">Simple HTML Contact Form</h2>
+            </div>
+            <div class="input">
+                <label>Name</label>
+                <input class="type" type="text" placeholder="Full Name">
+            </div>
+            <div class="input"> 
+                <label>Email</label>
+                <input class="type" type="email">
+            </div>
+            <div class="input">
+                <label style="margin-right: 0;">Password</label>
+                <input class="pass" type="password">
+            </div>
+            <div class="input">
+                <label>Gender</label>
+                <input type="radio" id="gender" value="male">Male
+                <input type="radio" id="gender" value="female">Female
+            </div>
+            <div class="input">
+                <label>Date Of Birth</label>
+                <input class="date" type="date">
+            </div>
+            <div>
+                <input class="bu" type="submit" value="Register">
+            </div>
+        </div>
+    </body>
+</html>
