@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body bgcolor="#2554C7">
+        <table border="0" style="border-collapse: collapse; width: 100%; height: 500px;">
+            <tr  style="background-color:#2554C7">
+                <td>
+                    <center><img src="college_logo.jpeg" height="100px" width="100px"></center>
+                </td>
+                <td colspan="4">
+                    <h1 style="text-align: center; color: white">Faculty of Science - Ain Shams University</h1>
+                </td>
+                <td>
+                    <center><img src="uni_logo.jpeg" height="100px" width="100px"></center>
+                </td>
+            </tr>
+            <tr>
+               <td  colspan="6"><img width="100%" height="200px" src="campus.jpeg"></td>
+            </tr>
+            <tr style="background-color: #4169E1;">
+                <td colspan="6" style="text-align: center; color:white;"><i>Welcome to the Faculty of Science - Ain Shams University</i></td>
+            </tr>
+            <tr>
+                <td style="background-color: #488AC7;" >
+                    <h2 style="color: aqua; text-decoration: underline;">Computer science<br><br>Statistics<br><br>Physics and Computer Science<br><br>Mathematics<br><br><br><br></h2>
+                </td>
+                <td style="background-color: #8EEBEC;">
+                    <h1 style="color: #2554C7;">Computer science</h1><br>course code:<br>
+                    <ol type="A"><b>
+                        <li>comp102</li>
+                        <li>comp104</li>
+                        <li>comp106</li>
+                        <br><br><br><br><br><br><br><br><br></b>
+                    </ol>
+                </td>
+                <td style="background-color: #8EEBEC;">
+                    <h1 style="color: #2554C7;">Statistics</h1><br>course code:<br>
+                    <ol type="I"><b>
+                        <li>comp104</li>
+                        <li>comp102</li>
+                            <ul type="square">
+                                <li>90 Final exam</li>
+                                <li>15 Mid-Term</li>
+                                <li>7 Attendance</li>
+                                <li>10 Activities</li>
+                                <li>20 Final lab exam</li>
+                                <li>8 oral</li>
+                            </ul>
+                            <br><br><br><br><br></b>
+                    </ol>
+                </td>
+                <td style="background-color: #8EEBEC;" >
+                    <h1 style="color: #2554C7;">Physics&amp;Computer Science</h1><br>course code:<br>
+                    <ol type="A"><b>
+                        <li>comp102</li>
+                        <li>comp104</li>
+                        <br><br><br><br><br><br><br><br><br><br></b>
+                    </ol>
+                </td>
+                <td style="background-color: #8EEBEC;">
+                    <h1 style="color: #2554C7;">Mathematics</h1><br>course code:<br>
+                    <ol type="1"><b>
+                        <li>comp108</li>
+                        <br><br><br><br><br><br><br><br><br><br><br><br></b>
+                    </ol>
+                </td>
+                <td style="background-color: #8EEBEC;">
+                    <img src="advertisement.jpeg" style=" width:100%; height: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <center><td colspan="6" style="color: white; text-align: center;">Copyright&copy;2024 Level 1 Spring Semester Faculty of Science - Ain Shams University</td></center>
+            </tr>
+
+        </table>
+    </body>
+</html>
