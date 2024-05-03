@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {background-color :#C7D3D4;}
+            table {
+            border-left: 2px solid #9969C7;
+            border-right: 2px solid #9969C7;
+            border-top: 1px solid #552586;
+            border-bottom: 1px solid #552586;
+            width:50%;
+            height: 50px;
+            padding:15px;    
+            }
+            #id {width:100%;}
+            #button {background-color: #9969C7; cursor:pointer; }
+            #button:hover{background-color: #897098;}
+        </style>    
+    </head>
+    <body>
+        <table><form>
+            <tr>
+                <td colspan="2" background="images.jpeg">Simple HTML contact form</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="id"></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input type="password" id="id"></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="tel" id="id"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="Gender"> Male <input type="radio" name="Gender"> Female</td>
+            </tr>
+            <tr>
+                <td>Pereference</td>
+                <td><input type="checkbox" name="Pereference">  Morning <input type="checkbox" name="Pereference"> Evening</td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><textarea placeholder="no more than 400 charachters" maxlength="400" style=" width:100%; height:60px"></textarea></td>
+            </tr>
+            <tr>
+                <td>Service</td>
+                <td><select id="id">
+                    <option>Service 1</option>
+                    <option>Service 2</option>
+                    <option>Service 3</option>
+                    <option>Service 4</option>
+                    <option>Service 5</option>                    
+                </select></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date dd/mm/yyyy" placeholder="04/06/2022" id="id"></td>
+            </tr>
+            <tr>
+                <td>Website</td>
+                <td><input type="link" id="id"></td>
+            </tr>
+            <tr>
+                <td>Upload file here</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" id="button" style="margin-right: 30px;"><input type="submit" id="button">
+                </td>
+            </tr>
+        </form></table>
+    </body>
+</html>
