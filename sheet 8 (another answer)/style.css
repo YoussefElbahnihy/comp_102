@@ -1,0 +1,46 @@
+body {
+    background-color: #D8BFD8;
+}
+
+.mean {
+    width: 70%;
+    height: 580px;
+    margin-top: 10px;
+}
+
+.head img {
+    width: 80px;
+    height: 70px;
+}
+
+.one {
+    width: 20%;
+    text-align: left;
+}
+
+.mid {
+    width: 60%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.two {
+    width: 20%;
+    text-align: right;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    color: purple;
+    font-size: 25px;
+}
+
+iframe {
+    width: 100%;
+    height: 425px;
+    
+}
